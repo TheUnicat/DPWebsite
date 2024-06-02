@@ -1,14 +1,8 @@
-import Navbar from '../components/Navbar';
+import Layout from '../app/layout';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-primary-light font-sans text-gray-900">
-      <Navbar />
-      <header className="bg-primary p-4 text-white text-center">
-        <h1 className="text-4xl font-bold">The Dignity Project</h1>
-        <p className="mt-2">at JH</p>
-      </header>
-      <main className="p-4">
+    <Layout>
         <section className="my-8">
           <h2 className="text-2xl font-semibold">About Us</h2>
           <p className="mt-4">
@@ -30,10 +24,6 @@ export default function Home() {
             </a>
           </p>
         </section>
-      </main>
-      <footer className="bg-primary p-4 text-white text-center">
-        <p>&copy; 2024 My Organization. All rights reserved.</p>
-      </footer>
-    </div>
+      </Layout>
   );
 }

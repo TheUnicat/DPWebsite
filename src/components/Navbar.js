@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="bg-primary-dark p-4 text-white">
       <ul className="flex justify-center space-x-4">
         <li>
-          <Link href="/home" className="hover:text-primary-light transition duration-300">
+          <Link href="/" className="hover:text-primary-light transition duration-300">
             Home
           </Link>
         </li>
