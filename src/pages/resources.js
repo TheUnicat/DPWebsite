@@ -20,11 +20,6 @@ export default function Resources() {
               Resource 2
             </a>
           </li>
-          <li>
-            <a href="https://www.example.com/resource3" className="text-primary-dark underline">
-              Resource 3
-            </a>
-          </li>
         </ul>
       </section>
     </Layout>
