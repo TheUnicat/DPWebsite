@@ -7,7 +7,7 @@ export default function About() {
       <section className="my-8">
         <h2 className="text-2xl font-semibold">About Us</h2>
         <p className="mt-4">
-          We are a dedicated group of individuals working towards a better future.
+          We are a dedicated group of <strike>individuals</strike> uwucats and owocats working towards a better future.
         </p>
       </section>
     </Layout>
