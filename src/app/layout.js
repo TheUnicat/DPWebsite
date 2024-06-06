@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Layout({ children }) {
   return (
