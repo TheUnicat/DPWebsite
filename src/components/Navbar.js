@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="bg-primary-dark p-4 text-white">
       <ul className="flex justify-center space-x-4">

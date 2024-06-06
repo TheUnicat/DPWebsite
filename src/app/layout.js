@@ -7,7 +7,7 @@ export default function Layout({ children }) {
       <header className="bg-primary p-4 text-white flex justify-between items-center">
         <div className="flex flex-col items-center">
           <Link href="/" className="hover:scale-105 transition duration-300">
-            <h1 className="text-4xl font-bold">The Dignity Project</h1>
+              <h1 className="text-4xl font-bold">The Dignity Project</h1>
           </Link>
           <p className="mt-2">at JH</p>
         </div>
