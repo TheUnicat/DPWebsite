@@ -29,6 +29,11 @@ export default function Navbar() {
             Volunteer
           </Link>
         </li>
+        <li>
+          <Link href="/low_entropy" className="hover:text-primary-grey transition duration-300">
+            Low Entropy
+          </Link>
+        </li>
       </ul>
     </nav>
   );
